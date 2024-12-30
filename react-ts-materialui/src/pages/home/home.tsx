@@ -1,5 +1,12 @@
+import Button from "@";
+
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Button />
+      Home
+    </div>
+  );
 };
 
 export default Home;
