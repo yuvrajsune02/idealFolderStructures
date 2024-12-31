@@ -1,7 +1,12 @@
+import Button from "@components/Button/Button";
+
 function App() {
   return (
     <>
-      <div>Get Started!</div>
+      <div>
+        <Button />
+        Get Started!
+      </div>
     </>
   );
 }
