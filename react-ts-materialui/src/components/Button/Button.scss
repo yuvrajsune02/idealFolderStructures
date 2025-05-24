@@ -1,5 +1,13 @@
+@use '../../assets/scss/globals' as *;
 .btn {
-  padding: 24px;
+  padding: rem(16);
+  color: $text-color;
+  font-size: $fs__20;
+  font-weight: $font__weight--semi-bold;
+  line-height: $line__height-m;
+  background-color: $primary-color;
+  border: none;
+  border-radius: 8px;
 }
 
 @media (width <= 1200px) {

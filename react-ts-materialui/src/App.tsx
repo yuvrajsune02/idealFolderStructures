@@ -1,11 +1,23 @@
-import Button from "@components/Button/Button";
+import Button from '@components/Button/Button';
+import './main.scss';
 
 function App() {
+  const toggleTheme = () => {
+    // document.body.className = 'theme1';
+    if (document.body.className === 'theme1') {
+      document.body.className = '';
+    } else {
+      document.body.className = 'theme1';
+    }
+  };
   return (
     <>
-      <div>
+      <div className="app">
+        <button className="theme-setter" onClick={() => toggleTheme()}>
+          Change theme
+        </button>
+
         <Button />
-        Get Started!
       </div>
     </>
   );

@@ -76,39 +76,6 @@ html {
   text-size-adjust: 100%;
 }
 
-body {
-  font-family: Arial, sans-serif; /* Customize your default font family */
-  line-height: 1.5;
-  color: #000;
-  background-color: #fff;
-  min-height: 100vh;
-}
-
-/* Reset headings */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: inherit;
-}
-
-/* Default form elements appearance */
-input,
-textarea {
-  border: none;
-  outline: none;
-  background: transparent;
-}
-
-select {
-  background: transparent;
-  border: none;
-  outline: none;
-}
-
 button {
   background: transparent;
   border: none;

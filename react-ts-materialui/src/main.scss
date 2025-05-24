@@ -1,0 +1,12 @@
+.app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .theme-setter {
+    background-color: azure;
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin-right: 24px;
+  }
+}
