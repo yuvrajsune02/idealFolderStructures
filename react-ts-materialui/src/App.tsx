@@ -1,5 +1,5 @@
 import Button from '@components/Button/Button';
-import './main.scss';
+import './app.scss';
 
 function App() {
   const toggleTheme = () => {
